@@ -1,0 +1,21 @@
+.product-description{
+    padding: 80px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-discription-details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.product-discription-details p{
+    background-color: gray;
+}
+.product-discription-details .message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    background-color: gray;
+}

@@ -1,0 +1,8 @@
+.breadcrum{
+    padding: 50px 140px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

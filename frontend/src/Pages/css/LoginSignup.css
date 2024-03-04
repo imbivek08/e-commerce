@@ -1,0 +1,49 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fde1ff;
+}
+.children{
+    height: 50vh;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 70px 50px;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 20px;
+}
+.login-input input{
+    height: 60px;
+    width: 90%;
+}
+.login-input button{
+    height: 60px;
+    width: 90%;
+    background:#ed2d1f;
+    border: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.login-message{
+    padding: 5px 0px;
+    font-size: 18px;
+}
+.login-message span{
+    color: red;
+    cursor: pointer;
+}
+.user-aggrement{
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+}
